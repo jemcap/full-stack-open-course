@@ -3,7 +3,7 @@ import axios from "axios";
 const baseUrl = "https://studies.cs.helsinki.fi/restcountries/api/all";
 const weatherUrl = "https://api.openweathermap.org/data/2.5/weather?";
 
-const weatherAPIKey = import.meta.env.VITE_OPENWEATHER_API_KEY;
+const weatherAPIKey = import.meta.env.VITE_API_KEY;
 console.log(weatherAPIKey);
 
 const getAllCountries = () => {
